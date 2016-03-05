@@ -1,3 +1,10 @@
+#### This script is used for generating the PAMAM dendrimer.
+#### It must be called in VMD.
+#### The script require three pdb format files(the coordinate of core units, repeat units and terminal units) and CHARMM format topology file.
+#### Thanks very much for Pubudu Wimalasiri, and Indika Chandrasiri (Department of Chemistry, University of Peradeniya, Sri Lanka), who are the author of Dendrigen.
+#### This script refer to the Dendrigen.(https://sites.google.com/site/dendrigen/dendrigen)
+
+
 proc veccut {coor_c coor_n} {
 		global PI bondlength
 		set x [lindex $coor_c 0]

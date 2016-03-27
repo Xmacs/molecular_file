@@ -35,8 +35,8 @@ proc draw_orientation {args} {
         set dy [lindex [vecsub $end $start] 1]
         if {$dy > [expr $box_width / 2]} {incr ny -1}
         if {$dy < [expr -1 * $box_width / 2]} {incr ny}
-        if {$dy > [expr $box_heigh / 2]} {incr nz -1}
-        if {$dy < [expr -1 * $box_heigh / 2]} {incr nz}
+        if {$dz > [expr $box_heigh / 2]} {incr nz -1}
+        if {$dz < [expr -1 * $box_heigh / 2]} {incr nz}
         set next_x [expr $nx*$box_length+$next_x];set next_y [expr $next_y+$ny*$box_width];set next_z [expr $next_z+$nz*$box_heigh]
         
         set start {}

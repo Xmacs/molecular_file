@@ -197,7 +197,6 @@ set selTerm [ atomselect $terminal_id all]
 	segment PAM {
 		pdb dendrimer.pdb
 	}
-	puts "fuck !!!!!"
 	patch LIN1 PAM:2 PAM:1
 	patch LIN2 PAM:3 PAM:1
 	patch LIN3 PAM:4 PAM:1
@@ -222,7 +221,6 @@ set selTerm [ atomselect $terminal_id all]
 		patch TEN2 PAM:$secid PAM:$reid
 	}
 	coordpdb dendrimer.pdb PAM
-	puts "fuck !!!!!"
 	guesscoord
 	writepsf g.psf
 	writepdb g.pdb

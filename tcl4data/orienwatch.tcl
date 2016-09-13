@@ -36,7 +36,7 @@ proc draw_orientation {args} {
         set next_x [expr $now_x+$next_x];set next_y [expr $now_y+$next_y];set next_z [expr $now_z+$next_z]
         
         set start {}
-		set end   {}
+	set end   {}
         lappend start $now_x
         lappend start $now_y
         lappend start $now_z

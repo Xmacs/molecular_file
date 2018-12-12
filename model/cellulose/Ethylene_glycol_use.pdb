@@ -1,0 +1,12 @@
+REMARK original generated coordinate pdb file
+ATOM      1  C1  EGLYX   1      -6.157  -0.733  -0.016  1.00  0.00      A    C
+ATOM      2  H11 EGLYX   1      -5.580  -1.035   0.886  1.00  0.00      A    H
+ATOM      3  H12 EGLYX   1      -5.577  -0.998  -0.928  1.00  0.00      A    H
+ATOM      4  O1  EGLYX   1      -7.348  -1.493  -0.034  1.00  0.00      A    O
+ATOM      5  HO1 EGLYX   1      -7.128  -2.428  -0.053  1.00  0.00      A    H
+ATOM      6  C2  EGLYX   1      -6.505   0.741   0.013  1.00  0.00      A    C
+ATOM      7  H21 EGLYX   1      -7.083   1.042  -0.889  1.00  0.00      A    H
+ATOM      8  H22 EGLYX   1      -7.084   1.006   0.926  1.00  0.00      A    H
+ATOM      9  O2  EGLYX   1      -5.314   1.501   0.028  1.00  0.00      A    O
+ATOM     10  HO2 EGLYX   1      -5.534   2.436   0.047  1.00  0.00      A    H
+END

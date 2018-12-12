@@ -1,0 +1,58 @@
+PSF EXT
+
+       3 !NTITLE
+ REMARKS original generated structure x-plor psf file
+ REMARKS topology top_all36_branch.rtf 
+ REMARKS segment A { first NONE; last NONE; auto angles dihedrals }
+
+      10 !NATOM
+         1 A        1        EGLY     C1       CC321    0.050000       12.0110           0
+         2 A        1        EGLY     H11      HCA2     0.090000        1.0080           0
+         3 A        1        EGLY     H12      HCA2     0.090000        1.0080           0
+         4 A        1        EGLY     O1       OC311M  -0.650000       15.9994           0
+         5 A        1        EGLY     HO1      HCP1M    0.420000        1.0080           0
+         6 A        1        EGLY     C2       CC321    0.050000       12.0110           0
+         7 A        1        EGLY     H21      HCA2     0.090000        1.0080           0
+         8 A        1        EGLY     H22      HCA2     0.090000        1.0080           0
+         9 A        1        EGLY     O2       OC311M  -0.650000       15.9994           0
+        10 A        1        EGLY     HO2      HCP1M    0.420000        1.0080           0
+
+       9 !NBOND: bonds
+         1         4         1         2         1         3         1         6
+         4         5         6         9         6         7         6         8
+         9        10
+
+      14 !NTHETA: angles
+         1         6         8         1         6         7         1         6         9
+         1         4         5         2         1         6         2         1         3
+         3         1         6         4         1         6         4         1         3
+         4         1         2         6         9        10         7         6         8
+         9         6         8         9         6         7
+
+      15 !NPHI: dihedrals
+         1         6         9        10         2         1         4         5
+         2         1         6         9         2         1         6         7
+         2         1         6         8         3         1         4         5
+         3         1         6         9         3         1         6         7
+         3         1         6         8         4         1         6         9
+         4         1         6         7         4         1         6         8
+         5         4         1         6         7         6         9        10
+         8         6         9        10
+
+       0 !NIMPHI: impropers
+
+
+       0 !NDON: donors
+
+
+       0 !NACC: acceptors
+
+
+       0 !NNB
+
+         0         0         0         0         0         0         0         0
+         0         0
+
+       1       0 !NGRP
+         0         0         0
+
